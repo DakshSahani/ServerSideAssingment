@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IET DAVV College - Academic</title>
+    <style>
+        .flex {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .flex-col {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .between {
+            justify-content: space-between;
+        }
+
+        .evenly {
+            justify-content: space-evenly;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding-inline: 40px;
+            padding-block: 10px;
+            text-align: center;
+        }
+
+        header .logo {
+            width: 100px;
+
+        }
+
+        nav {
+            background-color: #f1f1f1;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: #333;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: #333;
+        }
+
+        section {
+            padding: 20px;
+            padding-inline: 200px;
+            min-height: 380px;
+        }
+
+        .sub-nav {
+            background-color: #f1f1f1;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+
+        .sub-nav a {
+            float: left;
+            display: block;
+            color: #333;
+            text-align: center;
+            padding: 10px 16px;
+            text-decoration: none;
+        }
+
+        .sub-nav a:hover {
+            background-color: #ddd;
+            color: #333;
+        }
+
+        thead{
+            margin:5px;
+        }
+        td{
+            margin-inline:4px;
+            margin-block:2px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="flex between">
+        <div class="flex between">
+            <img class="logo" src="./ietlogom.png" alt="logo"></img>
+            <h1>Institute of Engineering and Technology</h1>
+        </div>
+            <a href="./contact.html"><img src="./icons8-contact.png" alt="reach-us Contact"></img></a>
+       </div>
+    </header>
+
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./about-us.html">About Us</a>
+        <a href="./academic.html">Academic</a>
+        <a href="./examination.html">Examination</a>
+    </nav>
+
+    <section id="examination">
+        <h2>Examination Notices </h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Notice</th>
+                    <th>Download</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Notice For BEPTDC I Year students</td>
+                    <td><a href="#">Download</a></td>
+                </tr>
+                <tr>
+                    <td>Notice regarding observation of answer-books (for BE I Year students)</td>
+                    <td><a href="#">Download</a></td>
+                </tr>
+                <tr>
+                    <td>Notice regarding observation of answer-books (for BE II Year / III Year / IV Year students)</td>
+                    <td><a href="#">Download</a></td>
+                </tr>
+                <tr>
+                    <td>Notice regarding Use or attempt to use Unfair Means in Examination (for all students)</td>
+                    <td><a href="#">Download</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+    <footer>
+        <p>Quick Links: <a href="./admission.html">Admissions</a> | <a href="./contact.html">Contact Us</a></p>
+    </footer>
+
+</body>
+
+</html>
